@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript">
+    
+let nome = window.prompt("Digite seu nome")
+let n1 = window.prompt("Digite nota 1") 
+n1 = parseInt(n1);
+let n2 = window.prompt("Digite nota 2") 
+n2 = parseInt(n2);
+let n3 = window.prompt("Digite nota 3")
+n3 = parseInt(n3);
+let med = (n1+n2+n3)/3
+
+window.alert(nome+" teve de média "+med)
+
+if(med >= 9){
+window.alert(nome+" foi super aprovado")
+}else if(med >= 7){
+window.alert(nome+" foi Aprovado")
+}else if(med >= 5){
+window.alert(nome+" está de Recuperação")
+}else if(med < 5){
+windopw.alert(nome+" foi Retido")
+} 
+</script>
+</head>
+<body>
+    
+</body>
+</html>
